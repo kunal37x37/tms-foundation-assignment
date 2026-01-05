@@ -48,5 +48,49 @@ The industry-standard solution is to use the **`django-cors-headers`** package.
 
 ```bash
 pip install django-cors-headers
+```
 
+#### 2. Add to INSTALLED_APPS
+```bash
+INSTALLED_APPS = [
+    ...
+    "corsheaders",
+]
+```
 
+#### 3. Add Middleware (Important Order)
+```bash
+MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
+    "django.middleware.common.CommonMiddleware",
+    ...
+]
+```
+#### 4. Configure Allowed Origins
+```bash
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "https://tmsfoundation.org",
+]
+```
+##### For development only:
+```bash
+CORS_ALLOW_ALL_ORIGINS = True
+```
+
+#### 5. Allow Credentials (If Required)
+```bash
+CORS_ALLOW_CREDENTIALS = True
+```
+##### Useful for:
+- JWT authentication
+- Session-based login
+- Secure admin access
+
+### Security Best Practices
+- llow only trusted domains
+- Use HTTPS in production
+- Combine CORS with:
+     - JWT authentication
+     - Role-based permissions
+     - CSRF protection where applicable

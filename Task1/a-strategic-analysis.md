@@ -1,7 +1,4 @@
-# 📊 Task 1: Strategic Analysis & Audit  
-**(Selected: a & c)**
 
----
 
 ## a) Strategic Analysis: Benefits of a Decoupled Architecture  
 ### (React Frontend + Django REST Backend) for a Non-Profit Organization
@@ -97,4 +94,5 @@ A decoupled architecture empowers non-profits with modern technology, long-term 
 ---
 
 ---
+
 

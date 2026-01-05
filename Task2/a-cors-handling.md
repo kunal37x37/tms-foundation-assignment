@@ -1,6 +1,4 @@
 
----
-
 ## a) API Integration: Handling Cross-Origin Resource Sharing (CORS)  
 ### in a Django + React Architecture
 
@@ -50,4 +48,5 @@ The industry-standard solution is to use the **`django-cors-headers`** package.
 
 ```bash
 pip install django-cors-headers
+
 

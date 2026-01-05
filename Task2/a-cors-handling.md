@@ -1,5 +1,3 @@
-# ⚙️ Task 2: Technical Proficiency  
-**(Selected: a & b)**
 
 ---
 
@@ -52,3 +50,4 @@ The industry-standard solution is to use the **`django-cors-headers`** package.
 
 ```bash
 pip install django-cors-headers
+

@@ -98,24 +98,3 @@ A decoupled architecture empowers non-profits with modern technology, long-term 
 
 ---
 
-## c) Architecture Proposal: Why a Decoupled Architecture is Better for TMS Foundation
-
----
-
-### Current Situation (General Observation)
-
-Traditional tightly coupled systems often suffer from:
-
-- Slow UI updates  
-- Difficult maintenance  
-- Limited scalability  
-- Poor mobile experience  
-
-As user expectations grow, such systems struggle to keep up.
-
----
-
-### Proposed Architecture
-
-**React (Frontend) + Django REST Framework (Backend)**
-

@@ -94,3 +94,14 @@ CORS_ALLOW_CREDENTIALS = True
      - JWT authentication
      - Role-based permissions
      - CSRF protection where applicable
+
+---
+### Conclusion
+
+#### Handling CORS properly ensures that:
+
+   - React and Django communicate securely
+   - Browsers allow API access
+   - Sensitive non-profit data remains protected
+
+A well-configured CORS policy is a foundation-level security requirement for any modern decoupled web application.
